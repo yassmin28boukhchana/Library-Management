@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update"
+    android:background="@drawable/back5"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/title2"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Book Title"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/author2"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:hint="Book Author"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/pages2"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="216dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="10dp"
+        android:elevation="3dp"
+        android:padding="15dp"
+        android:hint="Number of Pages"
+        android:inputType="number"/>
+
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-170dp"
+        android:padding="15dp"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/blue" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="15dp"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/pink" />
+
+</LinearLayout>
